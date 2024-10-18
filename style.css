@@ -96,3 +96,39 @@ footer {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 100);
 }
 
+/* Blog Box Styles */
+.blog-box {
+  width: 80%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  color: #cfcfcf;
+  background-color: #1a1a1a;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+.blog-title {
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #cfcfcf;
+}
+
+.blog-content {
+  text-align: left;
+  font-size: 16px;
+  color: #999;
+  margin-bottom: 15px;
+}
+
+.blog-box:first-of-type {
+  margin-top: 100px;
+}
+
+.blog-box:last-of-type {
+  margin-bottom: 100px;
+}
